@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Lifecycle</string>
+
+    <string name="demo01">demo01</string>
+    <string name="demo02">demo02</string>
+
+    <string name="start_dialog_activity">Start DialogActivity</string>
+    <string name="start_another_activity">Start AnotherActivity</string>
+    <string name="show_dialog">Show Dialog</string>
+
+    <string name="dialog_activity">DialogActivity</string>
+    <string name="another_activity">AnotherActivity</string>
+    <string name="dialog">Dialog</string>
+
+    <string name="ok">OK</string>
 </resources>

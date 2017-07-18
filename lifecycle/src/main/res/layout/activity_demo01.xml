@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+    android:id="@+id/activity_demo01"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -9,19 +9,26 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.github.cyc.lifecycle.MainActivity">
+    tools:context="com.github.cyc.lifecycle.demo01.Demo01Activity">
 
     <Button
-        android:id="@+id/btn_demo01"
+        android:id="@+id/btn_start_dialog_activity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
-        android:text="@string/demo01" />
+        android:text="@string/start_dialog_activity" />
 
     <Button
-        android:id="@+id/btn_demo02"
+        android:id="@+id/btn_start_another_activity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
-        android:text="@string/demo02" />
+        android:text="@string/start_another_activity" />
+
+    <Button
+        android:id="@+id/btn_show_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/show_dialog" />
 </LinearLayout>
